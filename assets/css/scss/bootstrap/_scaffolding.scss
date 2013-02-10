@@ -23,14 +23,8 @@ a {
   color: $linkColor;
   text-decoration: none;
 }
-<<<<<<< HEAD
 a:hover {
   color: $linkColorHover;
-=======
-a:hover,
-a:focus {
-  color: @linkColorHover;
->>>>>>> upstream/master
   text-decoration: underline;
 }
 
