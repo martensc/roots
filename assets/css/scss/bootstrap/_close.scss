@@ -10,9 +10,16 @@
   line-height: $baseLineHeight;
   color: $black;
   text-shadow: 0 1px 0 rgba(255,255,255,1);
+<<<<<<< HEAD
   @include opacity(20);
   &:hover {
     color: $black;
+=======
+  .opacity(20);
+  &:hover,
+  &:focus {
+    color: @black;
+>>>>>>> upstream/master
     text-decoration: none;
     cursor: pointer;
     @include opacity(40);

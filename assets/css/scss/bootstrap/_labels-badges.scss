@@ -35,11 +35,18 @@
   }
 }
 
-// Hover state, but only for links
+// Hover/focus state, but only for links
 a {
   &.label:hover,
+<<<<<<< HEAD
   &.badge:hover {
     color: $white;
+=======
+  &.label:focus,
+  &.badge:hover,
+  &.badge:focus {
+    color: @white;
+>>>>>>> upstream/master
     text-decoration: none;
     cursor: pointer;
   }
