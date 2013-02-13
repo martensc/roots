@@ -1,7 +1,10 @@
+require 'bootstrap-sass'
+# Require any additional compass plugins here.
+
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "assets/css"
-sass_dir = "assets/css/scss"
+sass_dir = "assets/sass"
 images_dir = "assets/img"
 javascripts_dir = "assets/js"
 
@@ -15,16 +18,16 @@ line_comments = false
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
-# preferred_syntax = :sass
+preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
 # Change this to :production when ready to deploy the CSS to the live server.
 environment = :development
-#environment = :production
+# environment = :production
 
 # In development, we can turn on the debug_info to use with FireSass or Chrome Web Inspector.
-debug = true
+# debug = true
 
 ##
 ## You probably don't need to edit anything below this.
