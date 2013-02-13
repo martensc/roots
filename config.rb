@@ -1,4 +1,7 @@
-require 'bootstrap-sass'
+
+# Uncomment next line if you installed 'bootstrap-sass' gem -- https://github.com/thomas-mcdonald/bootstrap-sass
+# require 'bootstrap-sass'
+
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
